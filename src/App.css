@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif', serif;
+  color: white;
+}
+
+body {
+  background-color: #393E46;
+}
+
+/* Nav Bar  */
+nav {
+  text-align: center;
+}
+
+.nav-logo {
+  width: 5%;
+}
+
+.nav-heading {
+  margin-bottom: 1em;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: 0 auto;
+  
+}
+
+.nav-items{
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+/* Quote Box  */
+#quote-box {
+  width: 50%;
+  background-color: #6D9886;
+  margin: 0 auto;
+  margin-top: 6em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding: 3em;
+}
+
+#text {
+  font-size: 3.5rem;
+  font-weight: 400;
+  
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.twitter-icon {
+  width: 15% ;
+}
+
+.clickable-links{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#new-quote {
+
+  background-color: #F2E7D5;
+  color: #393E46;
+  font-family: 'Noto Serif', serif;
+  width: 30%;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 600;
+  cursor: pointer;
+
+  
+}
+
+/* What Is Stoicism?  */
+#what-is-stoicism {
+  padding: 4em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.heading{
+  margin-bottom: 1em;
+}
+
+.mini-quote-box{
+  border-left: 10px solid #F2E7D5;
+  padding: 1em;
+  font-style: italic;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  
+}
+
+.paragraphs p {
+  margin-bottom: 1.4em;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  color:white
+  
+}
+
+/* Quote List  */
+.quoteList-box{
+  background-color: #F2E7D5;
+  width:40%;
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 2rem;
+}
+
+
+/* Transition  */
