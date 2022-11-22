@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <p>Created by: Charles Noah</p>
             <div className="footer-links">
-                <a><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://github.com/NoahCrown"><i class="fa-brands fa-square-github"></i></a>
             </div>
         </footer>
     )

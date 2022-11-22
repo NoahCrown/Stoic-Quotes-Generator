@@ -9,7 +9,7 @@ export default function Quote(props) {
             <div className="clickable-links">
                 <button onClick={props.generateQuote} id="new-quote">Generate New Quote</button>
                 <a id="tweet-quote"  target="_top"
-                href={`{"https://twitter.com/intent/tweet?text="${props.body}`}> <img className="twitter-icon" src="https://i.imgur.com/KPNMIUX.png"></img></a>
+                href={`{"https://twitter.com/intent/tweet?text="${props.body}`}> <img  alt="twitter-icon" className="twitter-icon" src="https://i.imgur.com/KPNMIUX.png"></img></a>
             </div>
             
             

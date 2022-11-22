@@ -30,7 +30,7 @@ export default function WhatIsStoicism() {
                     who triumphed to become an influential lecturer and friend of the emperor Hadrian, and a famous playwright and political adviser. </p>
             </div>
 
-            <iframe  src="https://www.youtube.com/embed/dFbAm2B9mPs" title="How Stoicism Can Make You A Better Person" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+            {/* <iframe  src="https://www.youtube.com/embed/dFbAm2B9mPs" title="How Stoicism Can Make You A Better Person" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       */}
             
 
         </div>
