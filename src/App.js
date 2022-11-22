@@ -7,8 +7,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/NavBar';
 import Quote from './components/Quote';
 import WhatIsStoicism from './components/WhatISStoicism';
-import ListOfQuotes from './components/ListOfQuotes';
 import Footer from './components/Footer';
+import FamousQuotes from './components/FamousQuotes';
 
 function App() {
   const [quote,setQuote] = React.useState({})
@@ -23,6 +23,8 @@ function App() {
     .then(data => setQuote(data))
   }
 
+  
+
   return (
     <Router>
       <NavBar/>
@@ -31,11 +33,9 @@ function App() {
         body={quote.body} author_id={quote.author_id} author={quote.author}
         generateQuote={generateNewQuote} />}/>
         <Route path='/what-is-stoicism' element={<WhatIsStoicism/>}/>
-        <Route path="/list-of-quotes" element={<ListOfQuotes/>}/>
+        <Route path="/list-of-quotes" element={<FamousQuotes/>}/>
 
       </Routes>
-      {/* <hr/> */}
-
       <Footer/>
 
     </Router>

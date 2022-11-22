@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Noto Serif', serif;
-  color: white;
+  font-family: 'Merriweather', serif;
+    color: white;
   line-height: 1.5
 }
 
@@ -17,6 +16,7 @@ body {
 /* Nav Bar  */
 nav {
   text-align: center;
+  margin-bottom: 1.4em;
 }
 
 .nav-logo {
@@ -48,10 +48,8 @@ ul {
 /* Quote Box  */
 #quote-box {
   width: 80%;
-  background-color: #6D9886;
   margin: 0 auto;
   margin-top: 3em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   padding: 1.2em 1.5em;
   max-width: 800px;
@@ -61,6 +59,7 @@ margin-bottom:2em;
 #text {
   font-size: 1.6rem;
   font-weight: 400;
+
   
 }
 
@@ -93,7 +92,6 @@ margin-bottom:2em;
   background-color: #F2E7D5;
   display: block;
   color: #393E46;
-  font-family: 'Noto Serif', serif;
   width: 80%;
   aspect-ratio: 1/.2;
   border: none;
@@ -103,6 +101,7 @@ margin-bottom:2em;
   margin-bottom: 1em;
   max-width: 250px;
   margin-top: 2em;
+  font-size: .9em;
 
   
 }
@@ -143,13 +142,36 @@ iframe {
 }
 
 /* Quote List  */
-.quoteList-box{
-  background-color: #F2E7D5;
-  width:40%;
+.quote-set-heading{
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1em;
+}
+.quotes-box{
+  background-color: #f5f5f5;
+  width: 80%;
   margin: 0 auto;
   padding: 1em;
-  font-size: 2rem;
+  border-radius: 3px;
+  margin-bottom: 2em;
+  max-width: 600px;
+
 }
+
+.quote{
+  font-size: 1.2rem;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: .9rem;
+}
+
+.quote,.quote-author {
+  color:black;
+  
+}
+
 
 /* Footer  */
 footer {
@@ -206,6 +228,14 @@ footer p {
   .nav-links {
     max-width: 470px;
   }
+  .quote {
+    font-size: 1.4rem;
+
+  }
+
+  .quote-author{
+    font-size: 1.1rem;
+  }
 
   iframe {
     width: 720px;
@@ -215,7 +245,7 @@ footer p {
 
 
 @media only screen and (min-width: 992px){
-  #text,  {
+  #text  {
     font-size: 1.8rem;
   }
   #author{
@@ -235,9 +265,21 @@ footer p {
     justify-content: space-between;
     align-items: center;
   }
+
+  .quote {
+    font-size: 1.6rem;
+
+  }
+
+  .quote-author{
+    font-size: 1.3rem;
+  }
 }
 @media only screen and (min-width: 1200px){
   #text{
     font-size: 2rem;
+  }
+  #quote-box{
+    max-width: 850px;
   }
 }

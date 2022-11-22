@@ -8,8 +8,10 @@ export default function Quote(props) {
             <p id="author" className="">-{props.author}</p>
             <div className="clickable-links">
                 <button onClick={props.generateQuote} id="new-quote">Generate New Quote</button>
-                <a id="tweet-quote" href="twitter.com/intent/tweet"><img className="twitter-icon" src="https://i.imgur.com/KPNMIUX.png"></img></a>
+                <a id="tweet-quote"  target="_top"
+                href={`{"https://twitter.com/intent/tweet?text="${props.body}`}> <img className="twitter-icon" src="https://i.imgur.com/KPNMIUX.png"></img></a>
             </div>
+            
             
         </div>
     )
