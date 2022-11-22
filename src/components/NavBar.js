@@ -11,7 +11,7 @@ export default function NavBar() {
                     <Link  to="/" className="nav-items">Home</Link>
                 </li> 
                 <li>
-                    <Link to="/what-is-stoicism"className="nav-items">What is stoicism?</Link>
+                    <Link to="/what-is-stoicism"className="nav-items">Stoicism</Link>
                 </li>
                 <li>
                     <Link to="/list-of-quotes" className="nav-items">Quotes</Link>

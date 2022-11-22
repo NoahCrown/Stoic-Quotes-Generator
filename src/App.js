@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Quote from './components/Quote';
 import WhatIsStoicism from './components/WhatISStoicism';
 import ListOfQuotes from './components/ListOfQuotes';
+import Footer from './components/Footer';
 
 function App() {
   const [quote,setQuote] = React.useState({})
@@ -33,6 +34,9 @@ function App() {
         <Route path="/list-of-quotes" element={<ListOfQuotes/>}/>
 
       </Routes>
+      {/* <hr/> */}
+
+      <Footer/>
 
     </Router>
     
